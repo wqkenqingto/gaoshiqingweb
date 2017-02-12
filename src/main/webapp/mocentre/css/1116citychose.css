@@ -1,0 +1,135 @@
+.city-popup *{
+	font-family: "Microsoft Yahei";
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+}
+
+.city-popup ul,.city-popup li{
+	list-style: none;
+	display: inline-block;
+}
+
+.mask-wrap{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: #000;
+	opacity: 0.5;
+}
+
+.city-popup{
+	display: none;
+	z-index: 1;
+	width: 600px;
+	height: 400px;
+	background: #f8f8f8;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -300px;
+	overflow: hidden;
+}
+
+.selectedArea{
+	height: 50px;
+	line-height: 50px;
+	width: 480px;
+	padding-left: 20px;
+	overflow-y: auto;
+}
+
+.selectedArea span{
+	margin-right: 5px;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 15px 0 5px;
+	min-width: 60px;
+	background: #fff;
+	color: #438EB9;
+	cursor: pointer;
+	text-align: center;
+	border: 1px solid #438EB9;
+	position: relative;
+}
+
+.selectedArea span:after{
+	content: '+';
+	font-size: 20px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	transform: rotate(45deg);
+}
+
+.selectOption{
+	height: 310px;
+	width: 560px;
+	padding: 20px;
+	overflow: auto;
+}
+
+a.sure{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: #438EB9;
+	color: #fff;
+	cursor: pointer;
+}
+
+li.city-cont{
+	position: relative;
+	margin-right: 15px;
+	margin-top:5px;	
+}
+
+a.province{
+	color: #438EB9;
+	background: #fff;
+	border: 1px solid #438EB9;
+	display: inline-block;
+	height: 28px;
+	min-width: 60px;
+	text-align: center;
+	line-height: 28px;
+	padding: 0 5px;
+}
+
+.city-block:hover,.city-block.on{
+	background: #438EB9;
+	color: #fff;
+}
+
+ul.city-list{
+	background: #fff;
+	position: absolute;
+    top: 0;
+    right: -80px;
+    z-index: 9;
+    width: 80px;
+	line-height: 30px;
+	display: none;
+}
+
+li.city{
+	background: #fff;
+	display: block;
+	font-size: 16px;
+	color: #666;
+	cursor: pointer;
+	text-align: center;
+}
+
+.city-cont:hover ul{
+	display: block;
+}
