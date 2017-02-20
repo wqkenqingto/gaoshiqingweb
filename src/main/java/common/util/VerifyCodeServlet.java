@@ -1,13 +1,15 @@
 /*
- * Copyright 2016 mocentre.com All right reserved. This software is the
- * confidential and proprietary information of mocentre.com ("Confidential
+ * Copyright 2016 com.blogadmin.gaoshiqing.com All right reserved. This software is the
+ * confidential and proprietary information of com.blogadmin.gaoshiqing.com ("Confidential
  * Information"). You shall not disclose such Confidential Information and shall
  * use it only in accordance with the terms of the license agreement you entered
- * into with mocentre.com .
+ * into with com.blogadmin.gaoshiqing.com .
  */
 package common.util;
 
-import com.mocentre.tehui.common.constant.SessionKeyConstant;
+
+
+import common.constant.SessionKeyConstant;
 
 import javax.servlet.Servlet;
 import javax.servlet.ServletException;
@@ -39,7 +41,7 @@ public class VerifyCodeServlet extends HttpServlet implements Servlet {
         resp.setDateHeader("Expries", 0);
         resp.setContentType("image/jpeg");
         //获取白背景
-        String imageDir = req.getSession().getServletContext().getRealPath("/") + "/mocentre/images/gesturepw.jpg";
+        String imageDir = req.getSession().getServletContext().getRealPath("/") + "/com/blogadmin/gaoshiqing/images/gesturepw.jpg";
         StringBuffer strBuffer = RandomUtil.generateVerifyCode(resp.getOutputStream(), imageDir);
         String code = strBuffer.toString();
         req.getSession().setAttribute(SessionKeyConstant.VERIFYCODE, code);

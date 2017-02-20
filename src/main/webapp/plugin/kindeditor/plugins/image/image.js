@@ -14,7 +14,7 @@ KindEditor.plugin('image', function(K) {
 		formatUploadUrl = K.undef(self.formatUploadUrl, true),
 		allowFileManager = K.undef(self.allowFileManager, false),
 
-		uploadJson = "http://localhost:8080/ttehui-web/common/upload/uploadKEImg.htm",
+		uploadJson = "http://localhost:8080/tgaoshiqing-web/common/upload/uploadKEImg.htm",
 		imageTabIndex = K.undef(self.imageTabIndex, 0),
 		imgPath = self.pluginsPath + 'image/images/',
 		extraParams = K.undef(self.extraFileUploadParams, {}),

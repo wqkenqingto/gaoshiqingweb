@@ -198,7 +198,7 @@ K.swfupload = function(element, options) {
 KindEditor.plugin('multiimage', function(K) {
 	var self = this, name = 'multiimage',
 		formatUploadUrl = K.undef(self.formatUploadUrl, true),
-		uploadJson = "http://localhost:8080/ttehui-web/common/upload/uploadKEImg.htm",
+		uploadJson = "http://localhost:8080/tgaoshiqing-web/common/upload/uploadKEImg.htm",
 		imgPath = self.pluginsPath + 'multiimage/images/',
 		imageSizeLimit = K.undef(self.imageSizeLimit, '1MB'),
 		imageFileTypes = K.undef(self.imageFileTypes, '*.jpg;*.gif;*.png'),

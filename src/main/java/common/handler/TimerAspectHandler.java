@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class TimerAspectHandler {
 
-    @Around("execution(* com.mocentre.*.*.service.*.*(..))")
+    @Around("execution(* com.gaoshiqing.*.*.service.*.*(..))")
     public Object doAround(ProceedingJoinPoint pjp) throws Throwable {
 
         long time = System.currentTimeMillis();

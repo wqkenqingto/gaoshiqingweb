@@ -1,55 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?>  
-<beans xmlns="http://www.springframework.org/schema/beans"  
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"  
-    xmlns:context="http://www.springframework.org/schema/context"  
-    xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"  
-    xmlns:aop="http://www.springframework.org/schema/aop"  
-    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd  
-            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">  
-  
-    <context:property-placeholder
-    	ignore-unresolvable="true" location="classpath:redis.properties" />  
-    
-    <bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">  
-    	<property name="maxIdle" value="${redis.maxIdle}" />
-        <property name="maxTotal" value="${redis.maxTotal}" />  
-        <property name="maxWaitMillis" value="${redis.maxWait}" /> 
-        <property name="testOnBorrow" value="${redis.testOnBorrow}" />
-    </bean>  
-    
-    <!-- 自定义实现 -->
-    <bean id="shardedJedisPool" class="redis.clients.jedis.ShardedJedisPool" scope="singleton">
-        <constructor-arg index="0" ref="jedisPoolConfig" />
-        <constructor-arg index="1">
-            <list>
-                <bean class="redis.clients.jedis.JedisShardInfo">
-                    <constructor-arg name="host" value="${redis.host}" />
-                    <constructor-arg name="port" value="${redis.port}" />
-                    <constructor-arg name="timeout" value="${redis.timeout}" />
-                    <constructor-arg name="weight" value="1" />
-                    <!-- <property name="password" value="${redis.password}" /> -->
-                </bean>
-            </list>
-        </constructor-arg>
-    </bean>
-    
-    <!-- spring-data-redis 配置 -->
-    <bean id="jedisConnectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
-	    <property name="hostName" value="${redis.host}" />
-	    <property name="port" value="${redis.port}" />
-	    <!-- <property name="password" value="${redis.pass}" /> -->
-	    <property name="timeout" value="${redis.timeout}" />
-	    <property name="poolConfig" ref="jedisPoolConfig" />
-	    <property name="usePool" value="true" />
-	</bean>
-	 
-	<bean id="redisTemplate" class="org.springframework.data.redis.core.StringRedisTemplate">
-	    <property name="connectionFactory" ref="jedisConnectionFactory" />
-	</bean>
-	 
-	<!-- 将session放入redis 
-	<bean id="redisHttpSessionConfiguration" class="org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration">
-	    <property name="maxInactiveIntervalInSeconds" value="1800" />
-	</bean>--> 
-    
-</beans>
+<!--<?xml version="1.0" encoding="UTF-8"?>  -->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"  -->
+    <!--xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"  -->
+    <!--xmlns:context="http://www.springframework.org/schema/context"  -->
+    <!--xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"  -->
+    <!--xmlns:aop="http://www.springframework.org/schema/aop"  -->
+    <!--xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd  -->
+            <!--http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">  -->
+  <!---->
+    <!--<context:property-placeholder-->
+    	<!--ignore-unresolvable="true" location="classpath:redis.properties" />  -->
+    <!---->
+    <!--<bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">  -->
+    	<!--<property name="maxIdle" value="${redis.maxIdle}" />-->
+        <!--<property name="maxTotal" value="${redis.maxTotal}" />  -->
+        <!--<property name="maxWaitMillis" value="${redis.maxWait}" /> -->
+        <!--<property name="testOnBorrow" value="${redis.testOnBorrow}" />-->
+    <!--</bean>  -->
+    <!---->
+    <!--&lt;!&ndash; 自定义实现 &ndash;&gt;-->
+    <!--<bean id="shardedJedisPool" class="redis.clients.jedis.ShardedJedisPool" scope="singleton">-->
+        <!--<constructor-arg index="0" ref="jedisPoolConfig" />-->
+        <!--<constructor-arg index="1">-->
+            <!--<list>-->
+                <!--<bean class="redis.clients.jedis.JedisShardInfo">-->
+                    <!--<constructor-arg name="host" value="${redis.host}" />-->
+                    <!--<constructor-arg name="port" value="${redis.port}" />-->
+                    <!--<constructor-arg name="timeout" value="${redis.timeout}" />-->
+                    <!--<constructor-arg name="weight" value="1" />-->
+                    <!--&lt;!&ndash; <property name="password" value="${redis.password}" /> &ndash;&gt;-->
+                <!--</bean>-->
+            <!--</list>-->
+        <!--</constructor-arg>-->
+    <!--</bean>-->
+    <!---->
+    <!--&lt;!&ndash; spring-data-redis 配置 &ndash;&gt;-->
+    <!--<bean id="jedisConnectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">-->
+	    <!--<property name="hostName" value="${redis.host}" />-->
+	    <!--<property name="port" value="${redis.port}" />-->
+	    <!--&lt;!&ndash; <property name="password" value="${redis.pass}" /> &ndash;&gt;-->
+	    <!--<property name="timeout" value="${redis.timeout}" />-->
+	    <!--<property name="poolConfig" ref="jedisPoolConfig" />-->
+	    <!--<property name="usePool" value="true" />-->
+	<!--</bean>-->
+	 <!---->
+	<!--<bean id="redisTemplate" class="org.springframework.data.redis.core.StringRedisTemplate">-->
+	    <!--<property name="connectionFactory" ref="jedisConnectionFactory" />-->
+	<!--</bean>-->
+	 <!---->
+	<!--&lt;!&ndash; 将session放入redis -->
+	<!--<bean id="redisHttpSessionConfiguration" class="org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration">-->
+	    <!--<property name="maxInactiveIntervalInSeconds" value="1800" />-->
+	<!--</bean>&ndash;&gt; -->
+    <!---->
+<!--</beans>-->

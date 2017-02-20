@@ -12,11 +12,11 @@
     <description>Spring-orm配置文件 </description>
     
     <!--扫描com.包下包含spring注解的类，自动注入 -->
-    <context:component-scan base-package="com.mocentre.tehui" />
+    <context:component-scan base-package="com.gaoshiqing.blogadmin" />
 
     <!-- 启用aop  -->
 	<aop:aspectj-autoproxy proxy-target-class="true"/>
 	
-	<import resource="classpath:spring/spring-config-redis.xml" />
+	<!--<import resource="classpath:spring/spring-config-redis.xml" />-->
     <import resource="classpath:spring/spring-dubbo-consumer.xml" />
 </beans>

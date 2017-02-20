@@ -1,7 +1,519 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dff4dd50-92d6-424e-b526-7d49b0d0be0b" name="Default" comment="" />
+    <list default="true" id="dff4dd50-92d6-424e-b526-7d49b0d0be0b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/edit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/login.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/1116citychose.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/1116citychose.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/ace-fonts.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/ace-fonts.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/ace-ie.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/ace-ie.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/ace-part2.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/ace-part2.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/ace-rtl.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/ace-rtl.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/ace-skins.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/ace-skins.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/ace.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/ace.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/ace.onpage-help.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/ace.onpage-help.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/adbd.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/adbd.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/base.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/base.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/bootstrap-datetimepicker.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/bootstrap-datetimepicker.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/bootstrap-duallistbox.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/bootstrap-duallistbox.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/bootstrap-editable.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/bootstrap-editable.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/bootstrap-multiselect.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/bootstrap-multiselect.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/bootstrap-timepicker.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/bootstrap-timepicker.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/bootstrap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/button.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/button.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/chosen-sprite.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/chosen-sprite.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/chosen-sprite@2x.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/chosen-sprite@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/chosen.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/chosen.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/circlebot.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/circlebot.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/colorbox.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/colorbox.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/colorpicker.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/colorpicker.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/component.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/component.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/countUp.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/countUp.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/datepicker.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/datepicker.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/daterangepicker.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/daterangepicker.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/dropzone.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/dropzone.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/fileinput.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/fileinput.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/fm.selectator.jquery.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/fm.selectator.jquery.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/font-awesome.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/font-awesome.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/fullcalendar.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/fullcalendar.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/fullcalendar.print.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/fullcalendar.print.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/banner.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/banner.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/banner1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/banner1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/banner2.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/banner2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/banner5.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/banner5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/border.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/border.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/border1.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/border1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/border2.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/border2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/controls.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/controls.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/ie6/borderBottomCenter.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/ie6/borderBottomCenter.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/ie6/borderBottomLeft.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/ie6/borderBottomLeft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/ie6/borderBottomRight.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/ie6/borderBottomRight.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/ie6/borderMiddleLeft.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/ie6/borderMiddleLeft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/ie6/borderMiddleRight.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/ie6/borderMiddleRight.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/ie6/borderTopCenter.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/ie6/borderTopCenter.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/ie6/borderTopLeft.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/ie6/borderTopLeft.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/ie6/borderTopRight.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/ie6/borderTopRight.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/loading.gif" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/loading_background.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/loading_background.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/meteorshower.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/meteorshower.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/meteorshower2.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/meteorshower2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/overlay.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/overlay.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/pattern.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/pattern.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/pattern.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/pattern.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/spritemap.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/spritemap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/images/spritemap@2x.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/images/spritemap@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/img/alpha.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/img/alpha.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/img/hue.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/img/hue.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/img/saturation.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/img/saturation.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/jquery-ui.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/jquery-ui.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/jquery-ui.custom.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/jquery-ui.custom.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/jquery.gritter.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/jquery.gritter.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/jquery.toast.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/jquery.toast.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/ace-features.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/ace-features.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/ace-nav.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/ace-nav.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/ace-responsive.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/ace-responsive.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/ace-rtl.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/ace-rtl.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/ace.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/ace.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/basic.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/basic.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/alerts.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/alerts.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/badges.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/badges.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/bootstrap.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/bootstrap.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/breadcrumbs.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/breadcrumbs.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/button-groups.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/button-groups.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/buttons.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/buttons.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/carousel.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/carousel.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/close.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/close.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/code.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/code.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/component-animations.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/component-animations.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/dropdowns.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/dropdowns.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/forms.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/forms.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/glyphicons.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/glyphicons.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/grid.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/grid.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/input-groups.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/input-groups.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/jumbotron.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/jumbotron.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/labels.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/labels.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/list-group.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/list-group.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/media.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/media.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/alerts.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/alerts.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/background-variant.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/background-variant.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/border-radius.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/border-radius.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/buttons.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/buttons.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/center-block.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/center-block.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/clearfix.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/clearfix.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/forms.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/forms.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/gradients.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/gradients.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/grid-framework.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/grid-framework.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/grid.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/grid.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/hide-text.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/hide-text.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/image.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/image.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/labels.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/labels.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/list-group.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/list-group.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/nav-divider.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/nav-divider.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/nav-vertical-align.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/nav-vertical-align.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/opacity.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/opacity.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/pagination.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/pagination.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/panels.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/panels.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/progress-bar.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/progress-bar.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/reset-filter.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/reset-filter.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/resize.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/resize.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/responsive-visibility.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/responsive-visibility.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/size.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/size.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/tab-focus.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/tab-focus.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/table-row.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/table-row.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/text-emphasis.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/text-emphasis.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/text-overflow.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/text-overflow.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/mixins/vendor-prefixes.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/mixins/vendor-prefixes.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/modals.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/modals.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/navbar.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/navbar.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/navs.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/navs.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/normalize.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/normalize.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/pager.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/pager.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/pagination.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/pagination.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/panels.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/panels.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/popovers.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/popovers.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/print.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/print.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/progress-bars.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/progress-bars.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/responsive-embed.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/responsive-embed.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/responsive-utilities.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/responsive-utilities.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/scaffolding.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/scaffolding.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/tables.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/tables.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/theme.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/theme.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/thumbnails.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/thumbnails.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/tooltip.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/tooltip.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/type.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/type.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/utilities.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/utilities.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/variables.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/variables.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bootstrap/wells.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bootstrap/wells.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/breadcrumbs.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/breadcrumbs.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/bs3-reset.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/bs3-reset.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/buttons.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/buttons.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/dropdown.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/dropdown.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/dropdown/colorpicker.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/dropdown/colorpicker.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/dropdown/navbar-dropdown.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/dropdown/navbar-dropdown.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/dropdown/navbar-tabbed-dropdown.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/dropdown/navbar-tabbed-dropdown.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/echarts/echartsHome.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/echarts/echartsHome.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/ext/bootstrap-tag.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/ext/bootstrap-tag.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/fonts-rel.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/fonts-rel.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/fonts.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/fonts.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/footer.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/footer.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/form.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/form.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/form/checkbox.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/form/checkbox.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/form/file.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/form/file.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/gallery.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/gallery.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/general.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/general.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/icon-animated.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/icon-animated.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/infobox.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/infobox.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/items.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/items.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/label-badge.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/label-badge.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/mixins.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/mixins.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/modal.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/modal.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/navbar/collapsible.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/navbar/collapsible.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/navbar/navbar-menu-form.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/navbar/navbar-menu-form.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/navbar/toggle-button.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/navbar/toggle-button.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/navbar/user-buttons-move-down.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/navbar/user-buttons-move-down.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/navbar/user-buttons.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/navbar/user-buttons.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/navbar/user-dropdown-position.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/navbar/user-dropdown-position.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/navbar/user-menu.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/navbar/user-menu.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/onpage-help.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/onpage-help.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/other.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/other.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/page.error.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/page.error.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/page.inbox.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/page.inbox.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/page.invoice.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/page.invoice.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/page.login.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/page.login.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/page.pricing.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/page.pricing.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/page.profile.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/page.profile.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/page.timeline.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/page.timeline.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/print.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/print.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/progressbar.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/progressbar.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/scroll.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/scroll.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/searchbox.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/searchbox.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/sidebar.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/sidebar.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/sidebar/active.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/sidebar/active.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/sidebar/compact.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/sidebar/compact.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/sidebar/ff_fix.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/sidebar/ff_fix.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/sidebar/highlight.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/sidebar/highlight.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/sidebar/horizontal.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/sidebar/horizontal.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/sidebar/hover.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/sidebar/hover.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/sidebar/min.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/sidebar/min.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/sidebar/multiple.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/sidebar/multiple.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/sidebar/old-toggle-button.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/sidebar/old-toggle-button.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/sidebar/responsive-1.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/sidebar/responsive-1.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/sidebar/responsive-2.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/sidebar/responsive-2.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/sidebar/responsive-3.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/sidebar/responsive-3.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/sidebar/shortcuts-toggle.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/sidebar/shortcuts-toggle.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/sidebar/sidebar-fixed.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/sidebar/sidebar-fixed.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/sidebar/sub-arrow.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/sidebar/sub-arrow.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/skins/empty.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/skins/empty.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/skins/no-skin.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/skins/no-skin.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/skins/skin-1.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/skins/skin-1.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/skins/skin-2.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/skins/skin-2.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/skins/skin-3.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/skins/skin-3.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/skins/skins.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/skins/skins.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/tab-accordion.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/tab-accordion.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/tables.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/tables.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/thirdparty-calendar.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/thirdparty-calendar.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/thirdparty-chosen.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/thirdparty-chosen.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/thirdparty-colorbox.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/thirdparty-colorbox.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/thirdparty-dataTables.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/thirdparty-dataTables.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/thirdparty-date.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/thirdparty-date.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/thirdparty-dropzone.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/thirdparty-dropzone.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/thirdparty-duallist-multiselect.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/thirdparty-duallist-multiselect.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/thirdparty-editable.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/thirdparty-editable.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/thirdparty-fuelux.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/thirdparty-fuelux.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/thirdparty-gritter.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/thirdparty-gritter.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/thirdparty-jqgrid.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/thirdparty-jqgrid.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/thirdparty-jquery-ui.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/thirdparty-jquery-ui.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/thirdparty-nestable.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/thirdparty-nestable.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/thirdparty-raty.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/thirdparty-raty.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/thirdparty-select2.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/thirdparty-select2.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/thirdparty-slider.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/thirdparty-slider.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/thirdparty-typeahead.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/thirdparty-typeahead.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/thirdparty-wysiwyg.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/thirdparty-wysiwyg.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/tooltip-popover.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/tooltip-popover.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/utility.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/utility.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/variables.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/variables.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/less/widget.less" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/less/widget.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/normalize.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/normalize.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/pace.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/pace.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/platformstyle.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/platformstyle.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/prettify.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/prettify.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/screen.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/screen.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/select2-spinner.gif" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/select2-spinner.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/select2.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/select2.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/select2.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/select2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/select2x2.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/select2x2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/supersized.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/supersized.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/timeline.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/timeline.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/css/ui.jqgrid.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/css/ui.jqgrid.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/fileupload/css/uploader.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/fileupload/css/uploader.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/fileupload/js/dmup-preview.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/fileupload/js/dmup-preview.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/fileupload/js/dmuploader.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/fileupload/js/dmuploader.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/fonts/FontAwesome.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/fonts/OpenSans-300.woff" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/fonts/OpenSans-300.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/fonts/OpenSans-400.woff" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/fonts/OpenSans-400.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/fonts/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/fonts/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/fonts/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/fonts/readme" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/fonts/readme" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/Thumbs.db" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/Thumbs.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/avatar.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/avatar.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/back_disabled.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/back_disabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/back_enabled.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/back_enabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/back_enabled_hover.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/back_enabled_hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/backgrounds/1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/backgrounds/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/backgrounds/1.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/backgrounds/1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/backgrounds/2.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/backgrounds/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/backgrounds/2.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/backgrounds/2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/backgrounds/3.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/backgrounds/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/backgrounds/3.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/backgrounds/3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/backgrounds/4.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/backgrounds/4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/dot.gif" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/dot.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/dot.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/dot.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/email1.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/email1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/email2.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/email2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/email3.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/email3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/email4.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/email4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/forward_disabled.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/forward_disabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/forward_enabled.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/forward_enabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/forward_enabled_hover.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/forward_enabled_hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/gallery/image-1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/gallery/image-1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/gallery/image-2.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/gallery/image-2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/gallery/image-3.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/gallery/image-3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/gallery/image-4.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/gallery/image-4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/gallery/image-5.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/gallery/image-5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/gallery/image-6.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/gallery/image-6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/gallery/thumb-1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/gallery/thumb-1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/gallery/thumb-2.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/gallery/thumb-2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/gallery/thumb-3.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/gallery/thumb-3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/gallery/thumb-4.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/gallery/thumb-4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/gallery/thumb-5.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/gallery/thumb-5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/gallery/thumb-6.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/gallery/thumb-6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/gesturepw.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/gesturepw.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/line.gif" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/line.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/line.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/line.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/link.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/link.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/loading.gif" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/logo.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/nopic.gif" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/nopic.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/sort_asc.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/sort_asc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/sort_asc_disabled.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/sort_asc_disabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/sort_both.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/sort_both.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/sort_desc.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/sort_desc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/sort_desc_disabled.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/sort_desc_disabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/spritemap.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/spritemap.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/images/spritemap@2x.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/images/spritemap@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/img/backgrounds/1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/img/backgrounds/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/img/backgrounds/2.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/img/backgrounds/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/img/backgrounds/3.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/img/backgrounds/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/img/clear.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/img/clear.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/img/glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/img/glyphicons-halflings-white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/img/glyphicons-halflings.png" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/img/glyphicons-halflings.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/img/loading.gif" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/img/loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/img/progress.gif" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/img/progress.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace-extra.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace-extra.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/ace.ajax-content.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/ace.ajax-content.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/ace.auto-container.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/ace.auto-container.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/ace.auto-padding.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/ace.auto-padding.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/ace.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/ace.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/ace.onpage-help.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/ace.onpage-help.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/ace.searchbox-autocomplete.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/ace.searchbox-autocomplete.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/ace.settings-rtl.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/ace.settings-rtl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/ace.settings-skin.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/ace.settings-skin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/ace.settings.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/ace.settings.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/ace.sidebar-scroll-1.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/ace.sidebar-scroll-1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/ace.sidebar-scroll-2.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/ace.sidebar-scroll-2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/ace.sidebar.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/ace.sidebar.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/ace.submenu-hover.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/ace.submenu-hover.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/ace.touch-drag.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/ace.touch-drag.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/ace.widget-box.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/ace.widget-box.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/ace.widget-on-reload.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/ace.widget-on-reload.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/elements.aside.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/elements.aside.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/elements.colorpicker.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/elements.colorpicker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/elements.fileinput.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/elements.fileinput.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/elements.onpage-help.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/elements.onpage-help.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/elements.scroller.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/elements.scroller.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/elements.spinner.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/elements.spinner.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/elements.treeview.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/elements.treeview.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/elements.typeahead.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/elements.typeahead.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/elements.wizard.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/elements.wizard.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/elements.wysiwyg.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/elements.wysiwyg.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/readme" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/readme" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ace/scripts.json" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ace/scripts.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/additional-methods.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/additional-methods.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/ajaxfileupload.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/ajaxfileupload.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/areas/city.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/areas/city.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/areas/underscore-min.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/areas/underscore-min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/bootbox.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/bootbox.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/bootstrap-colorpicker.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/bootstrap-colorpicker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/bootstrap-datetimepicker.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/bootstrap-datetimepicker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/bootstrap-multiselect.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/bootstrap-multiselect.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/bootstrap-tag.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/bootstrap-tag.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/bootstrap-wysiwyg.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/bootstrap-wysiwyg.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/bootstrap.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/chosen.jquery.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/chosen.jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/common.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/common.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/countUp.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/countUp.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/custom-file-input.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/custom-file-input.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/dataTables/de_DE.txt" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/dataTables/de_DE.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/dataTables/extensions/ColVis/js/dataTables.colVis.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/dataTables/extensions/ColVis/js/dataTables.colVis.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/dataTables/extensions/TableTools/js/dataTables.tableTools.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/dataTables/extensions/TableTools/js/dataTables.tableTools.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/dataTables/extensions/TableTools/swf/copy_csv_xls.swf" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/dataTables/extensions/TableTools/swf/copy_csv_xls.swf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/dataTables/extensions/TableTools/swf/copy_csv_xls_pdf.swf" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/dataTables/extensions/TableTools/swf/copy_csv_xls_pdf.swf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/dataTables/jquery.dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/dataTables/jquery.dataTables.bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/dataTables/jquery.dataTables.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/dataTables/jquery.dataTables.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/date-time/bootstrap-datepicker.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/date-time/bootstrap-datepicker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/date-time/bootstrap-datetimepicker.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/date-time/bootstrap-datetimepicker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/date-time/bootstrap-timepicker.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/date-time/bootstrap-timepicker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/date-time/daterangepicker.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/date-time/daterangepicker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/date-time/moment.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/date-time/moment.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/dropzone.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/dropzone.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/echarts/china.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/echarts/china.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/echarts/echarts.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/echarts/echarts.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/excanvas.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/excanvas.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/fileinput.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/fileinput.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/fileinput_locale_zh.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/fileinput_locale_zh.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/flot/jquery.flot.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/flot/jquery.flot.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/flot/jquery.flot.pie.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/flot/jquery.flot.pie.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/flot/jquery.flot.resize.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/flot/jquery.flot.resize.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/fm.selectator.jquery.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/fm.selectator.jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/fuelux/fuelux.spinner.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/fuelux/fuelux.spinner.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/fuelux/fuelux.tree.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/fuelux/fuelux.tree.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/fuelux/fuelux.wizard.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/fuelux/fuelux.wizard.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/fullcalendar.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/fullcalendar.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/html5shiv.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/html5shiv.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/industry/chk_off.gif" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/industry/chk_off.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/industry/chk_on.gif" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/industry/chk_on.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/industry/css.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/industry/css.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/industry/drag.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/industry/drag.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/industry/industry_arr.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/industry/industry_arr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/industry/industry_func.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/industry/industry_func.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jedate/jedate.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jedate/jedate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jedate/jedate.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jedate/jedate.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jedate/skin/gray.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jedate/skin/gray.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jedate/skin/green.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jedate/skin/green.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jedate/skin/jedate.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jedate/skin/jedate.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jedate/skin/red.css" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jedate/skin/red.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/grid.locale-en.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/grid.locale-en.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-ar.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-ar.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-bg.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-bg.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-bg1251.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-bg1251.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-cat.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-cat.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-cn.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-cn.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-cs.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-cs.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-da.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-da.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-de.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-de.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-dk.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-dk.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-el.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-el.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-en.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-en.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-es.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-es.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-fa.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-fa.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-fi.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-fi.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-fr.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-fr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-gl.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-gl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-he.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-he.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-hr.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-hr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-hr1250.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-hr1250.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-hu.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-hu.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-id.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-id.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-is.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-is.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-it.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-it.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-ja.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-ja.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-kr.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-kr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-lt.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-lt.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-mne.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-mne.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-nl.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-nl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-no.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-no.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-pl.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-pl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-pt-br.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-pt-br.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-pt.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-pt.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-ro.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-ro.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-ru.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-ru.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-sk.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-sk.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-sr-latin.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-sr-latin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-sr.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-sr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-sv.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-sv.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-th.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-th.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-tr.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-tr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-tw.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-tw.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-ua.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-ua.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/i18n/grid.locale-vi.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/i18n/grid.locale-vi.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jqGrid/jquery.jqGrid.src.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jqGrid/jquery.jqGrid.src.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery-1.11.0.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery-1.11.0.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery-1.7.2.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery-1.7.2.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery-1.9.1.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery-ui.custom.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery-ui.custom.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery-ui.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery-ui.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery.autosize.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery.autosize.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery.blockUI.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery.blockUI.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery.bootstrap-duallistbox.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery.bootstrap-duallistbox.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery.colorbox.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery.colorbox.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery.easypiechart.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery.easypiechart.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery.form.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery.form.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery.gesture.password.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery.gesture.password.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery.gritter.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery.gritter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery.hotkeys.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery.hotkeys.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery.inputlimiter.1.3.1.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery.inputlimiter.1.3.1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery.knob.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery.knob.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery.maskedinput.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery.maskedinput.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery.mobile.custom.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery.mobile.custom.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery.mousewheel.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery.mousewheel.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery.nestable.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery.nestable.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery.raty.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery.raty.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery.slimscroll.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery.slimscroll.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery.sparkline.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery.sparkline.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery.toast.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery.toast.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery.ui.touch-punch.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery.ui.touch-punch.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery.validate.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery.validate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/jquery1x.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/jquery1x.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/markdown/bootstrap-markdown.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/markdown/bootstrap-markdown.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/markdown/markdown.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/markdown/markdown.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/markdown/to-markdown.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/markdown/to-markdown.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/pace.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/pace.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/prettify.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/prettify.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/public.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/public.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/qrcode.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/qrcode.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/respond.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/respond.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/select2.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/select2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/spin.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/spin.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/supersized.3.2.7.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/supersized.3.2.7.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/typeahead.jquery.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/typeahead.jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/validate.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/validate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/x-editable/ace-editable.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/x-editable/ace-editable.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/mocentre/js/x-editable/bootstrap-editable.js" afterPath="$PROJECT_DIR$/src/main/webapp/gaoshiqing/js/x-editable/bootstrap-editable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/constant/ConfigConstant.java" afterPath="$PROJECT_DIR$/src/main/java/common/constant/ConfigConstant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/controller/UploadController.java" afterPath="$PROJECT_DIR$/src/main/java/common/controller/UploadController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/filter/SessionFilter.java" afterPath="$PROJECT_DIR$/src/main/java/common/filter/SessionFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/handler/SysLogAspectHandler.java" afterPath="$PROJECT_DIR$/src/main/java/common/handler/SysLogAspectHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/handler/TimerAspectHandler.java" afterPath="$PROJECT_DIR$/src/main/java/common/handler/TimerAspectHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/interceptor/TokenInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/common/interceptor/TokenInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/service/BaseBackendService.java" afterPath="$PROJECT_DIR$/src/main/java/common/service/BaseBackendService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/tags/PermissionDirective.java" afterPath="$PROJECT_DIR$/src/main/java/common/tags/PermissionDirective.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/util/VerifyCodeServlet.java" afterPath="$PROJECT_DIR$/src/main/java/common/util/VerifyCodeServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/dubbo.properties" afterPath="$PROJECT_DIR$/src/main/resources/dubbo.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/env/dev/system.properties" afterPath="$PROJECT_DIR$/src/main/resources/env/dev/system.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/env/pro/system.properties" afterPath="$PROJECT_DIR$/src/main/resources/env/pro/system.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/env/tes/system.properties" afterPath="$PROJECT_DIR$/src/main/resources/env/tes/system.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/redis.properties" afterPath="$PROJECT_DIR$/src/main/resources/redis.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-orm.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-orm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-config-redis.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-config-redis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-dubbo-consumer.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-dubbo-consumer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/system.properties" afterPath="$PROJECT_DIR$/src/main/resources/system.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/velocity/velocity.properties" afterPath="$PROJECT_DIR$/src/main/resources/velocity/velocity.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/plugin/kindeditor/plugins/code/prettify.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/kindeditor/plugins/code/prettify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/plugin/kindeditor/plugins/image/image.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/kindeditor/plugins/image/image.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/plugin/kindeditor/plugins/multiimage/multiimage.js" afterPath="$PROJECT_DIR$/src/main/webapp/plugin/kindeditor/plugins/multiimage/multiimage.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,6 +541,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -43,7 +558,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="873" />
+    <option name="height" value="832" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -60,6 +575,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -88,7 +604,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
@@ -200,14 +715,15 @@
       <workItem from="1484288033463" duration="34000" />
       <workItem from="1486449521992" duration="636000" />
       <workItem from="1486688841620" duration="74000" />
+      <workItem from="1487577592116" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="744000" />
+    <option name="totallyTimeSpent" value="749000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="832" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -228,10 +744,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25822604" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />

@@ -1743,8 +1743,8 @@ function EventManager(options) { // assumed to be a calendar
 	-----------------------------------------------------------------------------*/
 
 
-	// Given a raw object with key/value properties, returns an "abstract" Event object.
-	// An "abstract" event is an event that, if recurring, will not have been expanded yet.
+	// Given a raw object with key/value properties, returns an "ab" Event object.
+	// An "ab" event is an event that, if recurring, will not have been expanded yet.
 	// Will return `false` when input is invalid.
 	// `source` is optional
 	function buildEventFromInput(input, source) {
@@ -1795,7 +1795,7 @@ function EventManager(options) { // assumed to be a calendar
 
 		if (input.dow || moment.isDuration(start) || moment.isDuration(end)) {
 
-			// the event is "abstract" (recurring) so don't calculate exact start/end dates just yet
+			// the event is "ab" (recurring) so don't calculate exact start/end dates just yet
 			out.start = start ? moment.duration(start) : null; // will be a Duration or null
 			out.end = end ? moment.duration(end) : null; // will be a Duration or null
 			out._recurring = true; // our internal marker
@@ -4396,7 +4396,7 @@ RowRenderer.prototype = {
 
 ;;
 
-/* An abstract class comprised of a "grid" of cells that each represent a specific datetime
+/* An ab class comprised of a "grid" of cells that each represent a specific datetime
 ----------------------------------------------------------------------------------------------------------------------*/
 
 function Grid(view) {
@@ -4819,7 +4819,7 @@ $.extend(Grid.prototype, {
 
 ;;
 
-/* Event-rendering and event-interaction methods for the abstract Grid class
+/* Event-rendering and event-interaction methods for the ab Grid class
 ----------------------------------------------------------------------------------------------------------------------*/
 
 $.extend(Grid.prototype, {
@@ -7370,7 +7370,7 @@ function compareForwardSlotSegs(seg1, seg2) {
 
 ;;
 
-/* An abstract class from which other views inherit from
+/* An ab class from which other views inherit from
 ----------------------------------------------------------------------------------------------------------------------*/
 // Newer methods should be written as prototype methods, not in the monster `View` function at the bottom.
 
@@ -8289,7 +8289,7 @@ function getDraggedElMeta(el) {
 
 ;;
 
-/* An abstract class for the "basic" views, as well as month view. Renders one or more rows of day cells.
+/* An ab class for the "basic" views, as well as month view. Renders one or more rows of day cells.
 ----------------------------------------------------------------------------------------------------------------------*/
 // It is a manager for a DayGrid subcomponent, which does most of the heavy lifting.
 // It is responsible for managing width/height.
@@ -8748,7 +8748,7 @@ $.extend(BasicDayView.prototype, {
 });
 ;;
 
-/* An abstract class for all agenda-related views. Displays one more columns with time slots running vertically.
+/* An ab class for all agenda-related views. Displays one more columns with time slots running vertically.
 ----------------------------------------------------------------------------------------------------------------------*/
 // Is a manager for the TimeGrid subcomponent and possibly the DayGrid subcomponent (if allDaySlot is on).
 // Responsible for managing width/height.

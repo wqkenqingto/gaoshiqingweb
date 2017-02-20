@@ -2546,7 +2546,7 @@ To create your own input you can inherit from this class.
 }(window.jQuery));
 
 /**
-List - abstract class for inputs that have source option loaded from js array or via ajax
+List - ab class for inputs that have source option loaded from js array or via ajax
 
 @class list
 @extends abstractinput
@@ -3588,7 +3588,7 @@ Time
     var Time = function (options) {
         this.init('time', options, Time.defaults);
     };
-    //inherit from abstract, as inheritance from text gives selection error.
+    //inherit from ab, as inheritance from text gives selection error.
     $.fn.editableutils.inherit(Time, $.fn.editabletypes.abstractinput);
     $.extend(Time.prototype, {
         render: function() {

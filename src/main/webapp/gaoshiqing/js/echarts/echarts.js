@@ -49178,13 +49178,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	        /**
 	         * @public
-	         * @abstract
+	         * @ab
 	         */
 	        setSelected: zrUtil.noop,
 
 	        /**
 	         * @public
-	         * @abstract
+	         * @ab
 	         */
 	        getValueState: zrUtil.noop
 
@@ -50176,7 +50176,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	        /**
 	         * @protected
-	         * @abstract
+	         * @ab
 	         */
 	        doRender: zrUtil.noop
 

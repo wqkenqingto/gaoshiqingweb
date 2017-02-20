@@ -674,7 +674,7 @@ the specific language governing permissions and limitations under the Apache Lic
 
     AbstractSelect2 = clazz(Object, {
 
-        // abstract
+        // ab
         bind: function (func) {
             var self = this;
             return function () {
@@ -682,7 +682,7 @@ the specific language governing permissions and limitations under the Apache Lic
             };
         },
 
-        // abstract
+        // ab
         init: function (opts) {
             var results, search, resultsSelector = ".select2-results";
 
@@ -847,7 +847,7 @@ the specific language governing permissions and limitations under the Apache Lic
             this.search.attr("placeholder", opts.searchInputPlaceholder);
         },
 
-        // abstract
+        // ab
         destroy: function () {
             var element=this.opts.element, select2 = element.data("select2"), self = this;
 
@@ -892,7 +892,7 @@ the specific language governing permissions and limitations under the Apache Lic
             );
         },
 
-        // abstract
+        // ab
         optionToData: function(element) {
             if (element.is("option")) {
                 return {
@@ -913,7 +913,7 @@ the specific language governing permissions and limitations under the Apache Lic
             }
         },
 
-        // abstract
+        // ab
         prepareOpts: function (opts) {
             var element, select, idKey, ajaxUrl, self = this;
 
@@ -1097,7 +1097,7 @@ the specific language governing permissions and limitations under the Apache Lic
         /**
          * Monitor the original element for changes and update select2 accordingly
          */
-        // abstract
+        // ab
         monitorSource: function () {
             var el = this.opts.element, observer, self = this;
 
@@ -1148,7 +1148,7 @@ the specific language governing permissions and limitations under the Apache Lic
             }
         },
 
-        // abstract
+        // ab
         triggerSelect: function(data) {
             var evt = $.Event("select2-selecting", { val: this.id(data), object: data, choice: data });
             this.opts.element.trigger(evt);
@@ -1158,7 +1158,7 @@ the specific language governing permissions and limitations under the Apache Lic
         /**
          * Triggers the change event on the source element
          */
-        // abstract
+        // ab
         triggerChange: function (details) {
 
             details = details || {};
@@ -1178,13 +1178,13 @@ the specific language governing permissions and limitations under the Apache Lic
                 this.opts.element.blur();
         },
 
-        //abstract
+        //ab
         isInterfaceEnabled: function()
         {
             return this.enabledInterface === true;
         },
 
-        // abstract
+        // ab
         enableInterface: function() {
             var enabled = this._enabled && !this._readonly,
                 disabled = !enabled;
@@ -1198,7 +1198,7 @@ the specific language governing permissions and limitations under the Apache Lic
             return true;
         },
 
-        // abstract
+        // ab
         enable: function(enabled) {
             if (enabled === undefined) enabled = true;
             if (this._enabled === enabled) return;
@@ -1208,12 +1208,12 @@ the specific language governing permissions and limitations under the Apache Lic
             this.enableInterface();
         },
 
-        // abstract
+        // ab
         disable: function() {
             this.enable(false);
         },
 
-        // abstract
+        // ab
         readonly: function(enabled) {
             if (enabled === undefined) enabled = false;
             if (this._readonly === enabled) return;
@@ -1223,12 +1223,12 @@ the specific language governing permissions and limitations under the Apache Lic
             this.enableInterface();
         },
 
-        // abstract
+        // ab
         opened: function () {
             return (this.container) ? this.container.hasClass("select2-dropdown-open") : false;
         },
 
-        // abstract
+        // ab
         positionDropdown: function() {
             var $dropdown = this.dropdown,
                 container = this.container,
@@ -1341,7 +1341,7 @@ the specific language governing permissions and limitations under the Apache Lic
             $dropdown.css(css);
         },
 
-        // abstract
+        // ab
         shouldOpen: function() {
             var event;
 
@@ -1354,7 +1354,7 @@ the specific language governing permissions and limitations under the Apache Lic
             return !event.isDefaultPrevented();
         },
 
-        // abstract
+        // ab
         clearDropdownAlignmentPreference: function() {
             // clear the classes used to figure out the preference of where the dropdown should be opened
             this.container.removeClass("select2-drop-above");
@@ -1367,7 +1367,7 @@ the specific language governing permissions and limitations under the Apache Lic
          * @return {Boolean} whether or not dropdown was opened. This method will return false if, for example,
          * the dropdown is already open, or if the 'open' event listener on the element called preventDefault().
          */
-        // abstract
+        // ab
         open: function () {
 
             if (!this.shouldOpen()) return false;
@@ -1386,7 +1386,7 @@ the specific language governing permissions and limitations under the Apache Lic
         /**
          * Performs the opening of the dropdown
          */
-        // abstract
+        // ab
         opening: function() {
             var cid = this.containerEventName,
                 scroll = "scroll." + cid,
@@ -1456,7 +1456,7 @@ the specific language governing permissions and limitations under the Apache Lic
 
         },
 
-        // abstract
+        // ab
         close: function () {
             if (!this.opened()) return;
 
@@ -1487,24 +1487,24 @@ the specific language governing permissions and limitations under the Apache Lic
         /**
          * Opens control, sets input value, and updates results.
          */
-        // abstract
+        // ab
         externalSearch: function (term) {
             this.open();
             this.search.val(term);
             this.updateResults(false);
         },
 
-        // abstract
+        // ab
         clearSearch: function () {
 
         },
 
-        //abstract
+        //ab
         getMaximumSelectionSize: function() {
             return evaluate(this.opts.maximumSelectionSize, this.opts.element);
         },
 
-        // abstract
+        // ab
         ensureHighlightVisible: function () {
             var results = this.results, children, index, child, hb, rb, y, more, topOffset;
 
@@ -1550,12 +1550,12 @@ the specific language governing permissions and limitations under the Apache Lic
             }
         },
 
-        // abstract
+        // ab
         findHighlightableChoices: function() {
             return this.results.find(".select2-result-selectable:not(.select2-disabled):not(.select2-selected)");
         },
 
-        // abstract
+        // ab
         moveHighlight: function (delta) {
             var choices = this.findHighlightableChoices(),
                 index = this.highlight();
@@ -1570,7 +1570,7 @@ the specific language governing permissions and limitations under the Apache Lic
             }
         },
 
-        // abstract
+        // ab
         highlight: function (index) {
             var choices = this.findHighlightableChoices(),
                 choice,
@@ -1613,12 +1613,12 @@ the specific language governing permissions and limitations under the Apache Lic
           this._touchMoved = false;
         },
 
-        // abstract
+        // ab
         countSelectableResults: function() {
             return this.findHighlightableChoices().length;
         },
 
-        // abstract
+        // ab
         highlightUnderEvent: function (event) {
             var el = $(event.target).closest(".select2-result-selectable");
             if (el.length > 0 && !el.is(".select2-highlighted")) {
@@ -1630,7 +1630,7 @@ the specific language governing permissions and limitations under the Apache Lic
             }
         },
 
-        // abstract
+        // ab
         loadMoreIfNeeded: function () {
             var results = this.results,
                 more = results.find("li.select2-more-results"),
@@ -1684,7 +1684,7 @@ the specific language governing permissions and limitations under the Apache Lic
         /**
          * @param initial whether or not this is the call to this method right after the dropdown has been opened
          */
-        // abstract
+        // ab
         updateResults: function (initial) {
             var search = this.search,
                 results = this.results,
@@ -1831,12 +1831,12 @@ the specific language governing permissions and limitations under the Apache Lic
             })});
         },
 
-        // abstract
+        // ab
         cancel: function () {
             this.close();
         },
 
-        // abstract
+        // ab
         blur: function () {
             // if selectOnBlur == true, select the currently highlighted option
             if (this.opts.selectOnBlur)
@@ -1850,12 +1850,12 @@ the specific language governing permissions and limitations under the Apache Lic
             this.selection.find(".select2-search-choice-focus").removeClass("select2-search-choice-focus");
         },
 
-        // abstract
+        // ab
         focusSearch: function () {
             focus(this.search);
         },
 
-        // abstract
+        // ab
         selectHighlighted: function (options) {
             if (this._touchMoved) {
               this.clearTouchMoved();
@@ -1873,7 +1873,7 @@ the specific language governing permissions and limitations under the Apache Lic
             }
         },
 
-        // abstract
+        // ab
         getPlaceholder: function () {
             var placeholderOption;
             return this.opts.element.attr("placeholder") ||
@@ -1883,7 +1883,7 @@ the specific language governing permissions and limitations under the Apache Lic
                 ((placeholderOption = this.getPlaceholderOption()) !== undefined ? placeholderOption.text() : undefined);
         },
 
-        // abstract
+        // ab
         getPlaceholderOption: function() {
             if (this.select) {
                 var firstOption = this.select.children('option').first();
@@ -1904,7 +1904,7 @@ the specific language governing permissions and limitations under the Apache Lic
          * the inline 'style' on the original element, and finally
          * falls back to the jQuery calculated element width.
          */
-        // abstract
+        // ab
         initContainerWidth: function () {
             function resolveContainerWidth() {
                 var style, attrs, matches, i, l, attr;

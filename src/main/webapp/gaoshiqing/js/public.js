@@ -22,7 +22,7 @@ $(document).ready(function(){
     fm.showLoging = function (msg) { //显示加载中
         var msg  = msg || 'loading';
         $.blockUI({
-            message: '<img id="displayBox" src="../../mocentre/images/loading.gif" width="100" height="100"/><br><h4>'+msg+'</h4>', 
+            message: '<img id="displayBox" src="../../com.blogadmin.gaoshiqing/images/loading.gif" width="100" height="100"/><br><h4>'+msg+'</h4>',
             css: {
                 border: 'none', 
                 padding: '15px', 
